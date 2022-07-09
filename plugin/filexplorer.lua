@@ -1,7 +1,7 @@
 vim.api.nvim_add_user_command(
-    "OpenFile",
+    'OpenFile',
     function (opts)
-        print("Yaya")
+        print("Yay")
     end,
     { nargs = 1 }
 )
